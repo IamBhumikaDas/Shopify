@@ -16,7 +16,7 @@ setFormData({...formData,[e.target.name]:e.target.value})
     const login =async () =>{
         console.log("Login function Executed",formData)
         let responseData;
-        await fetch('http://localhost:4000/login',{
+        await fetch('https://shopify-backend-0l0w.onrender.com/login',{
             method:"POST",
             headers:{
                 Accept: 'application/form-data',
@@ -38,7 +38,7 @@ setFormData({...formData,[e.target.name]:e.target.value})
     const signup =async () =>{
         console.log("Signup function Executed",formData)
         let responseData;
-        await fetch('http://localhost:4000/signup',{
+        await fetch('https://shopify-backend-0l0w.onrender.com/signup',{
             method:"POST",
             headers:{
                 Accept: 'application/form-data',
