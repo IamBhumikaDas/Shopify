@@ -16,12 +16,12 @@ const ShopContextProvider =(props)=>{
     const [cartItems, setCartItems] =useState(getDefaultCart());
 
     useEffect(()=>{
-fetch('http://localhost:4000/allproducts')
+fetch('https://shopify-backend-0l0w.onrender.com/allproducts')
 .then((response)=>response.json())
 .then((data)=>setAll_Product(data))
 
 if(localStorage.getItem('auth-token')){
-    fetch('http://localhost:4000/getcart',{
+    fetch('https://shopify-backend-0l0w.onrender.com/getcart',{
         method :'POST',
         headers:{
             Accept : 'application/form-data',
@@ -40,7 +40,7 @@ if(localStorage.getItem('auth-token')){
 
     setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
     if(localStorage.getItem('auth-token')){
-        fetch('http://localhost:4000/addtocart',{
+        fetch('https://shopify-backend-0l0w.onrender.com/addtocart',{
             method:"POST",
             headers:{
                 Accept : 'application/form-data',
@@ -58,7 +58,7 @@ if(localStorage.getItem('auth-token')){
  const removeFromCart =(itemId)=>{
     setCartItems((prev)=>({...prev,[itemId]:prev[itemId]-1}))
     if(localStorage.getItem('auth-token')){
-        fetch('http://localhost:4000/removefromcart',{
+        fetch('https://shopify-backend-0l0w.onrender.com/removefromcart',{
             method:"POST",
             headers:{
                 Accept : 'application/form-data',
