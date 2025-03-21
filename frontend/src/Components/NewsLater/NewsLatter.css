@@ -1,0 +1,167 @@
+.newsLatter{
+    border: 1px solid green;
+    width: 65%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    margin-bottom: 150px;
+    background-color: rgb(57, 55, 55);
+   
+    gap: 30px;
+}
+.newsLatter h1{
+    color: green;
+    font-size: 55px;
+    font-weight: 600;
+
+}
+.newsLatter p{
+    color: rgb(247, 243, 243);
+    font-size: 20px;
+}
+.newsLatter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 1px solid rgb(35, 171, 35);
+}
+.newsLatter input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: rgb(34, 34, 34);
+    font-family: Poppins;
+    font-size: 16px;
+}
+.newsLatter div button{
+  width: 210px;
+  height: 70px;
+  border-radius: 80px;
+  background: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width:1280px) {
+    .newsLatter{
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .newsLatter h1{
+        font-size: 36px;
+
+    }
+    .newsLatter p{
+        font-size: 16px;
+    }
+    .newsLatter div{
+        width: 600px;
+        height: 60px;
+    }
+    .newsLatter div input{
+        width: 400px;
+
+    }.newsLatter div button{
+        width: 160px;
+        height: 60px;
+    }
+}
+
+@media (max-width:1024px) {
+    .newsLatter{
+       
+        margin-bottom: 60px;
+       
+    }
+    .newsLatter h1{
+        font-size: 30px;
+
+    }
+    .newsLatter p{
+        font-size: 14px;
+    }
+    .newsLatter div{
+        width: 500px;
+        height: 50px;
+    }
+    .newsLatter div input{
+        width: 300px;
+        font-size: 14px;
+
+    }.newsLatter div button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:800px) {
+    .newsLatter{
+       
+        margin-bottom: 30px;
+        height: 35vh;
+       
+    }
+    .newsLatter h1{
+        font-size: 18px;
+
+    }
+    .newsLatter p{
+        font-size: 12px;
+    }
+    .newsLatter div{
+        width: 400px;
+        height: 40px;
+    }
+    .newsLatter div input{
+        width: 200px;
+        font-size: 13px;
+
+    }.newsLatter div button{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .newsLatter{
+       
+        padding: 0;
+        gap: 15px;
+        height: 25vh;
+        width: 100%;
+       
+    }
+    .newsLatter h1{
+        font-size: 16px;
+
+    }
+    .newsLatter p{
+        font-size: 13px;
+        max-width: 200;
+        text-align: center;
+    }
+    .newsLatter div{
+        width: 290px;
+        
+    }
+    .newsLatter div input{
+        width: 130px;
+        
+
+    }
+}
