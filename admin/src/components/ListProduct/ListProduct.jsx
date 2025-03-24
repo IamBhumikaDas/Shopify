@@ -10,6 +10,7 @@ const ListProduct =()=>{
         .then((data)=>{setAllProducts(data)})
 
     }
+    // https://shopify-backend-0l0w.onrender.com
     useEffect(()=>{
         fetchInfo()
     },[])
