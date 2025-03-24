@@ -307,7 +307,7 @@ cloudinary.config({
   cloud_name: "dffqiq8ix",
   api_key: "524827525971391",
   api_secret: "e5gUb3mJOKGfB5xSRr3ypkuZtmk", // Replace this with your actual API secret
-});se
+});
 
 // Cloudinary Storage Engine for Multer
 const storage = new CloudinaryStorage({
