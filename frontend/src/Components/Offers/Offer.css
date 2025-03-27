@@ -1,8 +1,8 @@
-.main{
+/* .main{
     background: black;
     width: auto;
     height: auto;
-}
+} */
 
 .offers{
     width: 65%;
@@ -11,7 +11,9 @@
 margin: auto;
 padding: 0px 140px;
 margin-bottom: 150px;
-background: linear-gradient(180deg, green 0% , grey 60%);}
+background: linear-gradient(180deg, #FFEBD6  0% , #fffefe 60%);
+/* background-color: #FFEBD6; */
+}
 .offers-left{
     flex: 1;
     display: flex;
@@ -33,9 +35,9 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
     width: 282px;
     height: 70px;
     border-radius: 35px;
-    background-color: rgb(90, 176, 66);
-    border: 1px solid green;
-    color: rgb(255, 255, 255);
+    background-color: yellow;
+    border: 1px solid #FFEBD6;
+    color: black;
     font-size: 22px;
     font-weight: 500;
     margin-top: 30px;
@@ -50,8 +52,8 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
     padding-top: 50px;
 }
 .offers-right img{
-    width: 250px;
-    height: 300px;
+    width: 385px;
+    height: 400px;
 }
 
 @media (max-width:1280px) {
@@ -97,7 +99,7 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
     }
     .offers-right img{
         width: 200px;
-        height: 250px;
+        height: 260px;
     }
     .offers-left button{
         width: 160px;
@@ -112,7 +114,7 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
 @media (max-width:800px) {
     .offers{
         
-        margin-top: 15px;
+        /* margin-top: 15px; */
         margin-bottom: 60px;
         
     }
@@ -139,7 +141,7 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
 @media (max-width:500px) {
     .offers{
         height: 25vh;
-        margin-top: 0px;
+        /* margin-top: 0px; */
         margin-bottom: 50px;
         
     }
@@ -152,8 +154,8 @@ background: linear-gradient(180deg, green 0% , grey 60%);}
 
     }
     .offers-right img{
-        width: 120px;
-        height: 140px;
+        width: 130px;
+        height: 150px;
     }
     .offers-left button{
         width: 120px;

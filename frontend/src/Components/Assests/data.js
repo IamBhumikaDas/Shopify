@@ -1,36 +1,36 @@
-import p1_img from './pr1.png'
-import p2_img from './pr2.png'
-import p3_img from './pr3.png'
-import p4_img from './pr4.png'
+import p1_img from './new.png'
+import p2_img from './women2.png'
+import p3_img from './men1.png'
+import p4_img from './men2.png'
 
 const data=[
     {
         id: 1,
-        name: "jacket",
+        name: "Womens Exclusive Skirts",
         image : p1_img,
-        new_price : 600,
-        old_price :900
+        new_price : 5000,
+        old_price :4000
     },
     {
         id: 2,
-        name: "Jeans",
+        name: "Womens Cotton One Piece",
         image : p2_img,
-        new_price : 900,
-        old_price :1900
+        new_price : 2000,
+        old_price :1500
     },
     {
         id: 3,
-        name: "Socks",
+        name: "Mens Cotton T-shirts",
         image : p3_img,
-        new_price : 400,
-        old_price :600
+        new_price : 5000,
+        old_price :3800
     },
     {
         id: 4,
-        name: "Shoes",
+        name: "Mens Printed Shirts",
         image : p4_img,
-        new_price : 800,
-        old_price :1800
+        new_price : 3000,
+        old_price :2500
     }
 ]
 

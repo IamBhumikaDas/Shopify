@@ -1,5 +1,5 @@
 .newsLatter{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 65%;
     height: 40vh;
     display: flex;
@@ -9,18 +9,20 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background-color: rgb(57, 55, 55);
+    /* background-color: rgb(57, 55, 55); */
+    /* background: linear-gradient(180deg ,white 0%, #FFEBD6 60%); */
+    background-color: #FFEBD6;
    
     gap: 30px;
 }
 .newsLatter h1{
-    color: green;
+    color: black;
     font-size: 55px;
     font-weight: 600;
 
 }
 .newsLatter p{
-    color: rgb(247, 243, 243);
+    color: black;
     font-size: 20px;
 }
 .newsLatter div{
@@ -31,7 +33,7 @@
     width: 730px;
     height: 70px;
     border-radius: 80px;
-    border: 1px solid rgb(35, 171, 35);
+    border: 1px solid black;
 }
 .newsLatter input{
     width: 500px;
@@ -46,8 +48,8 @@
   width: 210px;
   height: 70px;
   border-radius: 80px;
-  background: green;
-  color: white;
+  background: yellow;
+  color: black;
   font-size: 16px;
   cursor: pointer;
   border: none;

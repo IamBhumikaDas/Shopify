@@ -5,7 +5,7 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const CartItems= ()=>{
     
-    const color ={color:" #0db80a"};
+    const color ={color:" black"};
     const {getTotalCartAmount,all_product,cartItems,removeFromCart}= useContext(ShopContext);
     return(
         <div className="cartitems">

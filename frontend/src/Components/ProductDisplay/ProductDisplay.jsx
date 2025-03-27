@@ -8,7 +8,7 @@ const ProductDisplay = (props)=>{
    const {product}=props;
    const {addToCart} = useContext(ShopContext);
   
-    const color ={color:" #0db80a"};
+    const color ={color:"yellow"};
    
 
     return(
