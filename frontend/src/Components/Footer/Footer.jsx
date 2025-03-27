@@ -16,11 +16,11 @@ const Footer= ()=>{
 
             </div>
             <ul className="footer-links">
-                <li>Company</li>
-                <li>Products</li>
-                <li>Offices</li>
-                <li>About</li>
-                <li>Contact</li>
+               <a href="/"><li>Shop</li></a> 
+               <a href="/mens"><li>Men</li></a> 
+               <a href="/womens"><li>Women</li></a> 
+               <a href="/kids"><li>Kid</li></a> 
+               <a href="/login"><li>Register</li></a> 
             </ul>
             <div className="footer-social-icon">
                 <div className="footer-icons-container">

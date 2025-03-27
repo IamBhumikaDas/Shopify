@@ -6,6 +6,12 @@
     gap: 50px;
     background-color: black;
 
+}a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
 }
 .footer-logo{
     display: flex;
